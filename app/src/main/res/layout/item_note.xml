@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tv_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="笔记标题"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_note_content_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内容预览内容预览内容预览内容预览内容预览"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>
